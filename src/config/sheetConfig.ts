@@ -7,14 +7,11 @@
  * clonar o repositório para o novo exercício.
  */
 
-// Ano do exercício financeiro/legislativo
-export const EXERCICIO_ATUAL = '2026';
+// 1. Mude o ano do exercício
+export const EXERCICIO_ATUAL = '2025';
 
-// Link fixo do Google Sheets (caso deseje sincronizar com uma planilha online publicada)
-// Exemplo: 'https://docs.google.com/spreadsheets/d/SEU_ID/export?format=csv'
-// Se deixado vazio ou se a planilha falhar, o sistema utiliza automaticamente
-// a base completa oficial embutida (DEFAULT_UBA_CSV).
-export const FIXED_GOOGLE_SHEETS_URL: string = 'https://docs.google.com/spreadsheets/d/166dHcjAtxzQpKuqf855VOl1rY_b29u5WhJqQY97Nrw8/edit?gid=0#gid=0';
+// 2. Cole o link público da planilha de 2025
+export const FIXED_GOOGLE_SHEETS_URL: string = 'https://docs.google.com/spreadsheets/d/SEU_ID_DA_PLANILHA/edit#gid=0';
 
 // Título e Subtítulo oficiais do portal
 export const PORTAL_TITULO = 'Câmara Municipal de Ubá';
